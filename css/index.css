@@ -333,3 +333,159 @@ body {
   background-color: cadetblue;
   color: white;
 }
+html {
+  height: 900px;
+}
+body {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.about-header {
+  border-bottom: 3px dotted black;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.about-header .button {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+  font-size: 5rem;
+  color: cadetblue;
+  text-decoration: none;
+}
+.about-header h1 {
+  margin-bottom: 1%;
+}
+main {
+  width: 80%;
+  height: 100%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+}
+main .developers {
+  border: 1px solid cadetblue;
+  height: 60%;
+  margin: 1%;
+  margin-bottom: 3%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+main .developers h3 {
+  width: 14%;
+  margin-top: 3%;
+  margin: 1%;
+}
+main .developers .pl {
+  font-size: 1.5rem;
+  width: 30%;
+  margin-left: 12%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+main .developers .pl ul {
+  margin-bottom: 5%;
+}
+main .developers .pl span {
+  font-style: italic;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 1%;
+}
+main .developers .backend {
+  font-size: 1.5rem;
+  width: 30%;
+  margin-left: 12%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+main .developers .backend ul {
+  margin-bottom: 5%;
+}
+main .developers .backend span {
+  font-style: italic;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 1%;
+}
+main .developers .frontend {
+  font-size: 1.5rem;
+  width: 30%;
+  margin-left: 12%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+main .developers .frontend ul {
+  margin-bottom: 8%;
+}
+main .developers .frontend span {
+  font-style: italic;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 1%;
+}
+.marketing {
+  border: 1px solid cadetblue;
+  height: 60%;
+  margin: 1%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  border-radius: 10px;
+}
+.marketing .Michael-D {
+  font-size: 1.5rem;
+  width: 30%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.marketing .Michael-D ul {
+  margin-bottom: 5%;
+}
+.marketing .Michael-D span {
+  font-style: italic;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 1%;
+  margin-top: 2%;
+}
+.marketing .Michael {
+  font-size: 1.5rem;
+  width: 30%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.marketing .Michael ul {
+  margin-bottom: 2%;
+}
+.marketing .Michael span {
+  font-style: italic;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 1%;
+}
+.marketing .Austin {
+  font-size: 1.5rem;
+  width: 30%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.marketing .Austin ul {
+  margin-bottom: 5%;
+}
+.marketing .Austin span {
+  font-style: italic;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 1%;
+}
