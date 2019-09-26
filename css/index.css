@@ -187,9 +187,23 @@ img {
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
+@media (max-width: 500px) {
+  .footer {
+    flex-direction: column;
+    height: 10%;
+    padding-bottom: 1%;
+  }
+}
 .footer h3 {
   margin-top: 1%;
   margin-left: 1%;
+}
+@media (max-width: 500px) {
+  .footer h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2%;
+  }
 }
 .footer button {
   text-decoration: none;
@@ -200,9 +214,15 @@ img {
   height: 30px;
   font-size: 1.5rem;
   font-family: 'Titillium Web', sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   margin-top: 1%;
   margin-left: 1%;
+}
+@media (max-width: 500px) {
+  .footer button {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 .footer button:hover {
   background-color: crimson;
@@ -211,12 +231,19 @@ img {
 html {
   height: 900px;
 }
-body {
+.main-body {
   margin-left: 15%;
   margin-right: 15%;
 }
+@media (max-width: 1679px) and (min-width: 501px)  {
+  .main-body {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
 @media (max-width: 500px) {
-  body {
+  .main-body {
     margin-right: 3%;
     margin-left: 3%;
   }
@@ -240,6 +267,16 @@ body {
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 1679px) and (min-width: 501px)  {
+  .main-content {
+    align-items: center;
+  }
+}
+@media (max-width: 500px) {
+  .main-content {
+    align-items: center;
+  }
+}
 .main-content .first-section {
   margin-bottom: 3%;
   display: flex;
@@ -249,6 +286,16 @@ body {
   background-color: #8fbbbc;
   border-radius: 10px;
 }
+@media (max-width: 1679px) and (min-width: 501px)  {
+  .main-content .first-section {
+    width: 70%;
+  }
+}
+@media (max-width: 500px) {
+  .main-content .first-section {
+    width: 100%;
+  }
+}
 .main-content .first-section article {
   width: 54.96%;
   color: black;
@@ -257,6 +304,21 @@ body {
   width: 600px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+@media (max-width: 1679px) and (min-width: 501px)  {
+  .main-content .first-section .exercise {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .main-content .first-section .exercise {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 10px;
+  }
 }
 .main-content .first-section ul {
   font-size: 2rem;
@@ -272,6 +334,19 @@ body {
 .main-content .features-header {
   margin-left: 90%;
 }
+@media (max-width: 1679px) and (min-width: 501px)  {
+  .main-content .features-header {
+    width: 100%;
+    margin-left: 0%;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .main-content .features-header {
+    width: 100%;
+    margin-left: 0%;
+  }
+}
 .main-content .second-section {
   margin-bottom: 3%;
   display: flex;
@@ -281,15 +356,47 @@ body {
   background-color: #8fbbbc;
   border-radius: 10px;
 }
+@media (max-width: 1679px) and (min-width: 501px)  {
+  .main-content .second-section {
+    width: 70%;
+    flex-direction: row;
+  }
+}
+@media (max-width: 500px) {
+  .main-content .second-section {
+    width: 100%;
+    flex-direction: row;
+  }
+}
 .main-content .second-section article {
   width: 54.96%;
   padding-left: 5%;
   color: black;
 }
+@media (max-width: 1679px) and (min-width: 501px)  {
+  .main-content .second-section article {
+    padding: 0%;
+  }
+}
 .main-content .second-section .notebook {
   width: 600px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+}
+@media (max-width: 1679px) and (min-width: 501px)  {
+  .main-content .second-section .notebook {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .main-content .second-section .notebook {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 10px;
+  }
 }
 .main-content .second-section ul {
   font-size: 2rem;
@@ -316,6 +423,13 @@ body {
 .main-content .third-section h2 {
   margin-bottom: 2%;
 }
+@media (max-width: 500px) {
+  .main-content .third-section h2 {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 2.9rem;
+  }
+}
 .main-content .third-section button {
   text-decoration: none;
   background-color: white;
@@ -328,6 +442,12 @@ body {
   font-weight: 600;
   margin-left: 9%;
   margin-bottom: 3%;
+}
+@media (max-width: 500px) {
+  .main-content .third-section button {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 .main-content .third-section button:hover {
   background-color: cadetblue;
@@ -359,10 +479,22 @@ body {
 }
 main {
   width: 80%;
-  height: 100%;
+  height: 120%;
   margin-left: 10%;
   display: flex;
   flex-direction: column;
+}
+@media (max-width: 1679px) and (min-width: 501px)  {
+  main {
+    height: 140%;
+  }
+}
+@media (max-width: 500px) {
+  main {
+    width: 100%;
+    margin-left: 0%;
+    height: 140%;
+  }
 }
 main .developers {
   border: 1px solid cadetblue;
@@ -373,10 +505,27 @@ main .developers {
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 1679px) and (min-width: 501px)  {
+  main .developers {
+    height: 70%;
+  }
+}
+@media (max-width: 500px) {
+  main .developers {
+    width: 100%;
+    height: 50%;
+  }
+}
 main .developers h3 {
   width: 14%;
   margin-top: 3%;
   margin: 1%;
+}
+@media (max-width: 1679px) and (min-width: 501px)  {
+  main .developers h3 {
+    width: 80%;
+    margin-bottom: 6%;
+  }
 }
 main .developers .pl {
   font-size: 1.5rem;
@@ -437,6 +586,17 @@ main .developers .frontend span {
   margin-bottom: 5%;
   border-radius: 10px;
 }
+@media (max-width: 1679px) and (min-width: 501px)  {
+  .marketing {
+    height: 28%;
+  }
+}
+@media (max-width: 500px) {
+  .marketing {
+    height: 25%;
+    width: 100%;
+  }
+}
 .marketing .Michael-D {
   font-size: 1.5rem;
   width: 30%;
@@ -453,7 +613,12 @@ main .developers .frontend span {
   font-size: 1.7rem;
   font-weight: 600;
   margin-bottom: 1%;
-  margin-top: 2%;
+  margin-top: 6%;
+}
+@media (max-width: 1679px) and (min-width: 501px)  {
+  .marketing .Michael-D span {
+    margin-top: 10%;
+  }
 }
 .marketing .Michael {
   font-size: 1.5rem;
@@ -471,6 +636,7 @@ main .developers .frontend span {
   font-size: 1.7rem;
   font-weight: 600;
   margin-bottom: 1%;
+  margin-top: 6%;
 }
 .marketing .Austin {
   font-size: 1.5rem;
@@ -488,4 +654,5 @@ main .developers .frontend span {
   font-size: 1.7rem;
   font-weight: 600;
   margin-bottom: 1%;
+  margin-top: 6%;
 }

@@ -2,8 +2,14 @@ html {
   height: 900px;
 }
 
-body{
+.main-body{
   .bodyMargin();
+
+  @media @desktop {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
 
   @media @mobile{
     margin-right: 3%;
@@ -37,6 +43,14 @@ body{
     display: flex;
     flex-direction: column;
 
+    @media @desktop {
+    align-items: center;
+    }
+
+    @media @mobile {
+      align-items: center;
+    }
+
 
     .first-section{
       margin-bottom: 3%;
@@ -46,6 +60,14 @@ body{
       height: 15%;
       background-color: @marketing-bg-color;
       border-radius: 10px;
+
+      @media @desktop {
+        width: 70%;
+      }
+
+      @media @mobile {
+        width: 100%;
+      }
 
       article {
         width: 54.96%;
@@ -57,6 +79,19 @@ body{
         width: 600px;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
+
+        @media @desktop {
+          border-top-left-radius: 0px;
+          border-top-right-radius: 0px;
+          border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+          width: 100%;
+        }
+
+        @media @mobile {
+          border-top-right-radius: 0px;
+          border-bottom-right-radius: 10px;
+        }
         
       }
 
@@ -77,6 +112,17 @@ body{
 
     .features-header{
       margin-left: 90%;
+
+      @media @desktop {
+        width: 100%;
+        margin-left: 0%;
+        text-align: center;
+      }
+
+      @media @mobile {
+        width: 100%;
+        margin-left: 0%;
+      }
     }
 
     .second-section{
@@ -89,10 +135,25 @@ body{
       border-radius: 10px;
 
 
+      @media @desktop {
+        width: 70%;
+        flex-direction: row;
+      }
+
+      @media @mobile {
+        width: 100%;
+        flex-direction: row;
+      }
+
+
       article {
         width: 54.96%;
         padding-left: 5%;
         color: black;
+
+        @media @desktop {
+          padding: 0%;
+        }
       
       }
 
@@ -100,8 +161,25 @@ body{
         width: 600px;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
-        
+
+        @media @desktop {
+          border-top-left-radius: 0px;
+          border-top-right-radius: 0px;
+          border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+          width: 100%;
+        }
+      
+
+        @media @mobile {
+          border-top-right-radius: 0px;
+          border-bottom-right-radius: 10px;
+        }
       }
+
+
+        
+    
 
       ul {
         font-size: 2rem;
@@ -132,6 +210,12 @@ body{
 
       h2{
         margin-bottom: 2%;
+
+        @media @mobile {
+          width: 100%;
+          margin: 0 auto;
+          font-size: 2.9rem;
+        }
       }
 
 
@@ -147,6 +231,11 @@ body{
         font-weight: 600;
         margin-left: 9%;
         margin-bottom: 3%;
+
+        @media @mobile {
+          margin-left: 0%;
+          width: 100%;
+        }
         
       }
       
