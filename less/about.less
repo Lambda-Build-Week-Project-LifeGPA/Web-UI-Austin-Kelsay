@@ -1,9 +1,12 @@
 html {
-    height: 900px;
+    height: 1200px;
+    
+    
   }
   
   body{
     .bodyMargin();
+
   
     @media @mobile{
       
@@ -31,41 +34,44 @@ html {
     }
 }
 
-main {
+.main-about {
     width: 80%;
-    height: 120%;
+    height: 100%;
     margin-left: 10%;
     display: flex;
     flex-direction: column;
+    
 
     @media @desktop {
-        height: 140%;
+        height: 100%;
     }
 
     @media @mobile {
         width: 100%;
         margin-left: 0%;
-        height: 140%;
+        height: 100%;
     }
     
 
 
     .developers {
         border: 1px solid cadetblue;
-        height: 60%;
+        height: 50%;
         margin: 1%;
-        margin-bottom: 3%;
+        margin-bottom: 1%;
         border-radius: 10px;
         display: flex;
         flex-direction: column;
+        background: linear-gradient(to bottom, white, rgb(143, 187, 188));
+        
 
         @media @desktop {
-            height: 70%;
+            height: 80%;
         }
 
         @media @mobile {
             width: 100%;
-            height: 50%;
+            height: 53%;
         }
 
         h3 {
@@ -149,18 +155,20 @@ main {
 
     .marketing{
         border: 1px solid cadetblue;
-        height: 60%;
+        height: 25%;
         margin: 1%;
         margin-top: 2%;
-        margin-bottom: 5%;
+        margin-bottom: 1%;
         border-radius: 10px;
+        background: @marketing-bg-color;
+
 
         @media @desktop {
-            height: 28%;
+            height: 30%;
         }
 
         @media @mobile {
-            height: 25%;
+            height: 30%;
             width: 100%;
         }
 

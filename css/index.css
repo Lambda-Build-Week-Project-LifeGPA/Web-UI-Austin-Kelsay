@@ -206,15 +206,15 @@ img {
   }
 }
 .footer button {
+  color: black;
   text-decoration: none;
   background-color: white;
-  color: black;
   border: 2px solid cadetblue;
   width: 100px;
   height: 30px;
   font-size: 1.5rem;
   font-family: 'Titillium Web', sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   margin-top: 1%;
   margin-left: 1%;
 }
@@ -454,7 +454,7 @@ html {
   color: white;
 }
 html {
-  height: 900px;
+  height: 1200px;
 }
 body {
   margin-left: 15%;
@@ -477,57 +477,58 @@ body {
 .about-header h1 {
   margin-bottom: 1%;
 }
-main {
+.main-about {
   width: 80%;
-  height: 120%;
+  height: 100%;
   margin-left: 10%;
   display: flex;
   flex-direction: column;
 }
 @media (max-width: 1679px) and (min-width: 501px)  {
-  main {
-    height: 140%;
+  .main-about {
+    height: 100%;
   }
 }
 @media (max-width: 500px) {
-  main {
+  .main-about {
     width: 100%;
     margin-left: 0%;
-    height: 140%;
+    height: 100%;
   }
 }
-main .developers {
+.main-about .developers {
   border: 1px solid cadetblue;
-  height: 60%;
+  height: 50%;
   margin: 1%;
-  margin-bottom: 3%;
+  margin-bottom: 1%;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  background: linear-gradient(to bottom, white, #8fbbbc);
 }
 @media (max-width: 1679px) and (min-width: 501px)  {
-  main .developers {
-    height: 70%;
+  .main-about .developers {
+    height: 80%;
   }
 }
 @media (max-width: 500px) {
-  main .developers {
+  .main-about .developers {
     width: 100%;
-    height: 50%;
+    height: 53%;
   }
 }
-main .developers h3 {
+.main-about .developers h3 {
   width: 14%;
   margin-top: 3%;
   margin: 1%;
 }
 @media (max-width: 1679px) and (min-width: 501px)  {
-  main .developers h3 {
+  .main-about .developers h3 {
     width: 80%;
     margin-bottom: 6%;
   }
 }
-main .developers .pl {
+.main-about .developers .pl {
   font-size: 1.5rem;
   width: 30%;
   margin-left: 12%;
@@ -535,16 +536,16 @@ main .developers .pl {
   flex-direction: column;
   align-items: flex-start;
 }
-main .developers .pl ul {
+.main-about .developers .pl ul {
   margin-bottom: 5%;
 }
-main .developers .pl span {
+.main-about .developers .pl span {
   font-style: italic;
   font-size: 1.7rem;
   font-weight: 600;
   margin-bottom: 1%;
 }
-main .developers .backend {
+.main-about .developers .backend {
   font-size: 1.5rem;
   width: 30%;
   margin-left: 12%;
@@ -552,16 +553,16 @@ main .developers .backend {
   flex-direction: column;
   align-items: flex-start;
 }
-main .developers .backend ul {
+.main-about .developers .backend ul {
   margin-bottom: 5%;
 }
-main .developers .backend span {
+.main-about .developers .backend span {
   font-style: italic;
   font-size: 1.7rem;
   font-weight: 600;
   margin-bottom: 1%;
 }
-main .developers .frontend {
+.main-about .developers .frontend {
   font-size: 1.5rem;
   width: 30%;
   margin-left: 12%;
@@ -569,10 +570,10 @@ main .developers .frontend {
   flex-direction: column;
   align-items: flex-start;
 }
-main .developers .frontend ul {
+.main-about .developers .frontend ul {
   margin-bottom: 8%;
 }
-main .developers .frontend span {
+.main-about .developers .frontend span {
   font-style: italic;
   font-size: 1.7rem;
   font-weight: 600;
@@ -580,20 +581,21 @@ main .developers .frontend span {
 }
 .marketing {
   border: 1px solid cadetblue;
-  height: 60%;
+  height: 25%;
   margin: 1%;
   margin-top: 2%;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
   border-radius: 10px;
+  background: #8fbbbc;
 }
 @media (max-width: 1679px) and (min-width: 501px)  {
   .marketing {
-    height: 28%;
+    height: 30%;
   }
 }
 @media (max-width: 500px) {
   .marketing {
-    height: 25%;
+    height: 30%;
     width: 100%;
   }
 }
