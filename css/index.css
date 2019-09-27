@@ -321,6 +321,7 @@ html {
   .main-content .first-section .exercise {
     border-top-right-radius: 0px;
     border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
   }
 }
 .main-content .first-section ul {
@@ -328,11 +329,12 @@ html {
 }
 .main-content .first-section ul p {
   padding: 1%;
-  margin-bottom: 6%;
+  margin-bottom: 3%;
+  margin-left: 1.5%;
   font-style: italic;
 }
 .main-content .first-section ul li {
-  padding: 1%;
+  padding: 2.5%;
 }
 .main-content .features-header {
   margin-left: 90%;
@@ -374,6 +376,7 @@ html {
 .main-content .second-section article {
   width: 54.96%;
   padding-left: 5%;
+  padding-top: 1%;
   color: black;
 }
 @media (max-width: 1679px) and (min-width: 501px)  {
@@ -399,18 +402,19 @@ html {
   .main-content .second-section .notebook {
     border-top-right-radius: 0px;
     border-bottom-right-radius: 10px;
+    border-top-left-radius: 0px;
   }
 }
 .main-content .second-section ul {
   font-size: 2rem;
 }
 .main-content .second-section ul p {
-  padding: 0.5%;
-  margin-bottom: 5%;
+  padding: 1%;
+  margin-bottom: 2%;
   font-style: italic;
 }
 .main-content .second-section ul li {
-  padding: 0.5%;
+  padding: 1%;
 }
 .main-content .third-section {
   height: 10%;
